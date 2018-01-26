@@ -1,0 +1,2429 @@
+{
+    "root": {
+        "node_vertices": {
+            "v7": {
+                "data": {
+                    "type": "Z",
+                    "value": "\\pi / 4"
+                },
+                "annotation": {
+                    "coord": [
+                        -5.5,
+                        -1.0
+                    ]
+                }
+            },
+            "v2": {
+                "data": {
+                    "type": "X",
+                    "value": ""
+                },
+                "annotation": {
+                    "coord": [
+                        -7.0,
+                        3.75
+                    ]
+                }
+            },
+            "v6": {
+                "data": {
+                    "type": "Z",
+                    "value": "\\pi / 4"
+                },
+                "annotation": {
+                    "coord": [
+                        -8.25,
+                        -1.0
+                    ]
+                }
+            },
+            "v5": {
+                "data": {
+                    "type": "X",
+                    "value": "-\\pi / 4"
+                },
+                "annotation": {
+                    "coord": [
+                        -5.75,
+                        0.25
+                    ]
+                }
+            },
+            "v1": {
+                "annotation": {
+                    "coord": [
+                        -11.5,
+                        1.5
+                    ]
+                }
+            },
+            "v4": {
+                "data": {
+                    "type": "X",
+                    "value": "-\\pi / 4"
+                },
+                "annotation": {
+                    "coord": [
+                        -8.0,
+                        0.25
+                    ]
+                }
+            },
+            "v0": {
+                "data": {
+                    "type": "X",
+                    "value": ""
+                },
+                "annotation": {
+                    "coord": [
+                        -11.5,
+                        3.25
+                    ]
+                }
+            },
+            "v3": {
+                "annotation": {
+                    "coord": [
+                        -7.0,
+                        2.0
+                    ]
+                }
+            }
+        },
+        "undir_edges": {
+            "e1": {
+                "src": "v3",
+                "tgt": "v4"
+            },
+            "e5": {
+                "src": "v0",
+                "tgt": "v1"
+            },
+            "e0": {
+                "src": "v2",
+                "tgt": "v3"
+            },
+            "e4": {
+                "src": "v5",
+                "tgt": "v7"
+            },
+            "e3": {
+                "src": "v3",
+                "tgt": "v5"
+            },
+            "e2": {
+                "src": "v4",
+                "tgt": "v6"
+            }
+        }
+    },
+    "steps": {
+        "E-1": {
+            "parent": "H-5",
+            "name": "E-1",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": [
+                        "v7"
+                    ],
+                    "node_vertices": {
+                        "v2": {
+                            "data": {
+                                "type": "X",
+                                "value": "- \\pi / 4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v6": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\pi / 4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e1": {
+                            "src": "v6",
+                            "tgt": "v7"
+                        },
+                        "e0": {
+                            "src": "v7",
+                            "tgt": "v2"
+                        }
+                    }
+                },
+                "rhs": {}
+            },
+            "graph": {
+                "wire_vertices": {
+                },
+                "undir_edges": {
+                }
+            },
+            "rule_name": "axioms/E"
+        },
+        "H-2": {
+            "parent": "S1-0",
+            "name": "H-2",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v11": {
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    -1.75
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v3": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    2.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v1": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e61": {
+                            "src": "v1",
+                            "tgt": "v11"
+                        },
+                        "e62": {
+                            "src": "v11",
+                            "tgt": "v3"
+                        },
+                        "e59": {
+                            "src": "v3",
+                            "tgt": "v10"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    -2.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v2": {
+                            "data": {
+                                "type": "X",
+                                "value": "-\\pi/4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e3": {
+                            "src": "v2",
+                            "tgt": "v10"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v7": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.25,
+                                -3.0
+                            ]
+                        }
+                    },
+                    "v2": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.0,
+                                -2.5
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.0,
+                                2.0
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e55": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    },
+                    "e57": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    },
+                    "e3": {
+                        "src": "v2",
+                        "tgt": "v7"
+                    }
+                }
+            },
+            "rule_name": "axioms/H",
+            "rule_variant": "inverse"
+        },
+        "S1-1": {
+            "parent": "HadamardAnn-1",
+            "name": "S1-1",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v7": {},
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -1.0,
+                                    -3.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v1": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\beta"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    -1.0
+                                ]
+                            }
+                        },
+                        "v0": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    3.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e79": {
+                            "src": "v7",
+                            "tgt": "v1"
+                        },
+                        "e80": {
+                            "src": "v0",
+                            "tgt": "v7"
+                        },
+                        "e83": {
+                            "src": "v1",
+                            "tgt": "v9"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    1.0,
+                                    -3.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v0": {
+                            "data": {
+                                "type": "Z",
+                                "value": "-\\pi/4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e2": {
+                            "src": "v0",
+                            "tgt": "v9"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v0": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -2.9146243973927253,
+                                0.3240228812832765
+                            ]
+                        }
+                    },
+                    "v2": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -1.372315865230115,
+                                -0.25064715227483153
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -1.7776600142218242,
+                                -1.885127240615166
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e81": {
+                        "src": "v2",
+                        "tgt": "v6"
+                    },
+                    "e2": {
+                        "src": "v0",
+                        "tgt": "v2"
+                    }
+                }
+            },
+            "rule_name": "axioms/S1"
+        },
+        "H-3": {
+            "parent": "E-0",
+            "name": "H-3",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v7": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    -2.0
+                                ]
+                            }
+                        },
+                        "v8": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    1.0,
+                                    -2.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v4": {
+                            "data": {
+                                "type": "X",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e61": {
+                            "src": "v4",
+                            "tgt": "v7"
+                        },
+                        "e64": {
+                            "src": "v4",
+                            "tgt": "v8"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v7": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    -1.75
+                                ]
+                            }
+                        },
+                        "v8": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    3.0,
+                                    -1.75
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v3": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    3.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v1": {
+                            "data": {
+                                "type": "Z",
+                                "value": "-\\pi/4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    2.0
+                                ]
+                            }
+                        },
+                        "v2": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    2.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e6": {
+                            "src": "v1",
+                            "tgt": "v3"
+                        },
+                        "e3": {
+                            "src": "v2",
+                            "tgt": "v7"
+                        },
+                        "e5": {
+                            "src": "v3",
+                            "tgt": "v8"
+                        },
+                        "e4": {
+                            "src": "v1",
+                            "tgt": "v2"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v2": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                -0.5
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.0,
+                                2.0
+                            ]
+                        }
+                    },
+                    "v3": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.25,
+                                1.25
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e64": {
+                        "src": "v1",
+                        "tgt": "v3"
+                    },
+                    "e3": {
+                        "src": "v2",
+                        "tgt": "v6"
+                    },
+                    "e5": {
+                        "src": "v0",
+                        "tgt": "v3"
+                    },
+                    "e66": {
+                        "src": "v1",
+                        "tgt": "v2"
+                    }
+                }
+            },
+            "rule_name": "axioms/H"
+        },
+        "B1-0": {
+            "name": "B1-0",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -0.75,
+                                    -1.25
+                                ]
+                            }
+                        },
+                        "v11": {},
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.75,
+                                    -1.25
+                                ]
+                            }
+                        },
+                        "v8": {}
+                    },
+                    "node_vertices": {
+                        "v3": {
+                            "annotation": {
+                                "coord": [
+                                    -0.0,
+                                    1.0
+                                ]
+                            }
+                        },
+                        "v1": {
+                            "annotation": {
+                                "coord": [
+                                    -3.5,
+                                    -0.25
+                                ]
+                            }
+                        },
+                        "v0": {
+                            "data": {
+                                "type": "X",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -3.5,
+                                    1.5
+                                ]
+                            }
+                        },
+                        "v2": {
+                            "data": {
+                                "type": "X",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -0.0,
+                                    2.5
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e6": {
+                            "src": "v2",
+                            "tgt": "v8"
+                        },
+                        "e12": {
+                            "src": "v0",
+                            "tgt": "v11"
+                        },
+                        "e7": {
+                            "src": "v8",
+                            "tgt": "v3"
+                        },
+                        "e13": {
+                            "src": "v11",
+                            "tgt": "v1"
+                        },
+                        "e8": {
+                            "src": "v3",
+                            "tgt": "v9"
+                        },
+                        "e10": {
+                            "src": "v3",
+                            "tgt": "v10"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -3.5,
+                                    -1.0
+                                ]
+                            }
+                        },
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.75,
+                                    -1.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v0": {
+                            "data": {
+                                "type": "X",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -3.5,
+                                    1.5
+                                ]
+                            }
+                        },
+                        "v1": {
+                            "data": {
+                                "type": "X",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.75,
+                                    1.5
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e0": {
+                            "src": "v0",
+                            "tgt": "v9"
+                        },
+                        "e1": {
+                            "src": "v1",
+                            "tgt": "v10"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v7": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.05357464678919101,
+                                -2.0949016992607516
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.80700150540417,
+                                -1.456360363012448
+                            ]
+                        }
+                    },
+                    "v5": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.4555346104204237,
+                                -0.3509929488049038
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.9447876411895525,
+                                1.366444151233058
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.587870681672408,
+                                0.33495611967076205
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.006827601098443,
+                                2.0571107700275792
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e0": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    },
+                    "e16": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    },
+                    "e1": {
+                        "src": "v1",
+                        "tgt": "v5"
+                    },
+                    "e14": {
+                        "src": "v5",
+                        "tgt": "v7"
+                    }
+                }
+            },
+            "rule_name": "axioms/B1"
+        },
+        "HadamardAnn-1": {
+            "parent": "H-4",
+            "name": "HadamardAnn-1",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v9": {},
+                        "v11": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -2.0,
+                                    5.0
+                                ]
+                            }
+                        },
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -2.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v4": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    3.0
+                                ]
+                            }
+                        },
+                        "v3": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    4.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e85": {
+                            "src": "v11",
+                            "tgt": "v3"
+                        },
+                        "e83": {
+                            "src": "v4",
+                            "tgt": "v10"
+                        },
+                        "e81": {
+                            "src": "v3",
+                            "tgt": "v9"
+                        },
+                        "e80": {
+                            "src": "v9",
+                            "tgt": "v4"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v11": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -8.0,
+                                    5.0
+                                ]
+                            }
+                        },
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -8.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e0": {
+                            "src": "v11",
+                            "tgt": "v10"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v1": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "annotation": {
+                            "coord": [
+                                -2.25,
+                                1.25
+                            ]
+                        }
+                    },
+                    "v2": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                -0.5
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.75,
+                                -1.5
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e82": {
+                        "src": "v1",
+                        "tgt": "v0"
+                    },
+                    "e78": {
+                        "src": "v2",
+                        "tgt": "v6"
+                    },
+                    "e76": {
+                        "src": "v1",
+                        "tgt": "v2"
+                    }
+                }
+            },
+            "rule_name": "theorems/HadamardAnn"
+        },
+        "H-4": {
+            "parent": "H-3",
+            "name": "H-4",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    -2.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v0": {
+                            "data": {
+                                "type": "X",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e71": {
+                            "src": "v0",
+                            "tgt": "v9"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    -1.75
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v0": {
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    2.0
+                                ]
+                            }
+                        },
+                        "v4": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    2.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e3": {
+                            "src": "v4",
+                            "tgt": "v9"
+                        },
+                        "e4": {
+                            "src": "v0",
+                            "tgt": "v4"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v2": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                -0.5
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -2.75,
+                                1.5
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "annotation": {
+                            "coord": [
+                                -2.25,
+                                1.25
+                            ]
+                        }
+                    },
+                    "v3": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.25,
+                                1.25
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e75": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    },
+                    "e67": {
+                        "src": "v1",
+                        "tgt": "v3"
+                    },
+                    "e3": {
+                        "src": "v4",
+                        "tgt": "v3"
+                    },
+                    "e69": {
+                        "src": "v2",
+                        "tgt": "v6"
+                    },
+                    "e73": {
+                        "src": "v1",
+                        "tgt": "v2"
+                    }
+                }
+            },
+            "rule_name": "axioms/H"
+        },
+        "H-0": {
+            "parent": "HadamardAnn-0",
+            "name": "H-0",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v12": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    -2.0
+                                ]
+                            }
+                        },
+                        "v11": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    4.0
+                                ]
+                            }
+                        },
+                        "v13": {
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v3": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    2.0
+                                ]
+                            }
+                        },
+                        "v5": {
+                            "data": {
+                                "type": "X",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e33": {
+                            "src": "v11",
+                            "tgt": "v3"
+                        },
+                        "e37": {
+                            "src": "v13",
+                            "tgt": "v5"
+                        },
+                        "e34": {
+                            "src": "v5",
+                            "tgt": "v12"
+                        },
+                        "e36": {
+                            "src": "v3",
+                            "tgt": "v13"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v11": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    4.0
+                                ]
+                            }
+                        },
+                        "v12": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    -1.75
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v5": {
+                            "data": {
+                                "type": "Z",
+                                "value": "-\\pi/4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    2.0
+                                ]
+                            }
+                        },
+                        "v3": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    2.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e3": {
+                            "src": "v11",
+                            "tgt": "v5"
+                        },
+                        "e5": {
+                            "src": "v5",
+                            "tgt": "v3"
+                        },
+                        "e4": {
+                            "src": "v3",
+                            "tgt": "v12"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v7": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.0,
+                                -2.0
+                            ]
+                        }
+                    },
+                    "v2": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.75,
+                                0.75
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v5": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.5,
+                                -0.25
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.0,
+                                1.25
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.0,
+                                2.0
+                            ]
+                        }
+                    },
+                    "v3": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.25,
+                                -1.0
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e30": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    },
+                    "e28": {
+                        "src": "v1",
+                        "tgt": "v2"
+                    },
+                    "e4": {
+                        "src": "v3",
+                        "tgt": "v7"
+                    },
+                    "e3": {
+                        "src": "v2",
+                        "tgt": "v5"
+                    },
+                    "e36": {
+                        "src": "v5",
+                        "tgt": "v3"
+                    },
+                    "e26": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    }
+                }
+            },
+            "rule_name": "axioms/H"
+        },
+        "H-5": {
+            "parent": "S1-1",
+            "name": "H-5",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v8": {
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v7": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    -1.75
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v2": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    2.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v0": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e5": {
+                            "src": "v0",
+                            "tgt": "v8"
+                        },
+                        "e6": {
+                            "src": "v8",
+                            "tgt": "v2"
+                        },
+                        "e3": {
+                            "src": "v2",
+                            "tgt": "v7"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v7": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    -2.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v2": {
+                            "data": {
+                                "type": "X",
+                                "value": "-\\pi/4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e3": {
+                            "src": "v2",
+                            "tgt": "v7"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v2": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -2.0,
+                                -2.25
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -1.75,
+                                -2.0
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e3": {
+                        "src": "v2",
+                        "tgt": "v6"
+                    }
+                }
+            },
+            "rule_name": "axioms/H",
+            "rule_variant": "inverse"
+        },
+        "E-0": {
+            "parent": "H-2",
+            "name": "E-0",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": [
+                        "v10"
+                    ],
+                    "node_vertices": {
+                        "v2": {
+                            "data": {
+                                "type": "X",
+                                "value": "- \\pi / 4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v7": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\pi / 4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e63": {
+                            "src": "v7",
+                            "tgt": "v10"
+                        },
+                        "e62": {
+                            "src": "v10",
+                            "tgt": "v2"
+                        }
+                    }
+                },
+                "rhs": {}
+            },
+            "graph": {
+                "node_vertices": {
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.0,
+                                2.0
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.75,
+                                -1.5
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e58": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    },
+                    "e60": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    }
+                }
+            },
+            "rule_name": "axioms/E"
+        },
+        "H-1": {
+            "parent": "H-0",
+            "name": "H-1",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v8": {
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    0.0
+                                ]
+                            }
+                        },
+                        "v11": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    0.0,
+                                    4.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v2": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    2.0
+                                ]
+                            }
+                        },
+                        "v1": {
+                            "data": {
+                                "type": "X",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -1.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e43": {
+                            "src": "v11",
+                            "tgt": "v2"
+                        },
+                        "e37": {
+                            "src": "v8",
+                            "tgt": "v1"
+                        },
+                        "e38": {
+                            "src": "v2",
+                            "tgt": "v8"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v11": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    2.0,
+                                    4.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v1": {
+                            "annotation": {
+                                "coord": [
+                                    1.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e3": {
+                            "src": "v11",
+                            "tgt": "v1"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v7": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.26990174995102323,
+                                -2.9477697059701766
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v5": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.0348468601835579,
+                                0.6498901467070448
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "annotation": {
+                            "coord": [
+                                2.48693604456574,
+                                -0.13510469398704886
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.0,
+                                2.0
+                            ]
+                        }
+                    },
+                    "v3": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.2027441254704244,
+                                -1.1215062043990613
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e39": {
+                        "src": "v5",
+                        "tgt": "v3"
+                    },
+                    "e41": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    },
+                    "e45": {
+                        "src": "v3",
+                        "tgt": "v7"
+                    },
+                    "e3": {
+                        "src": "v1",
+                        "tgt": "v5"
+                    },
+                    "e47": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    }
+                }
+            },
+            "rule_name": "axioms/H"
+        },
+        "HadamardAnn-0": {
+            "parent": "B1-0",
+            "name": "HadamardAnn-0",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -8.0,
+                                    5.0
+                                ]
+                            }
+                        },
+                        "v12": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -8.0,
+                                    2.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e0": {
+                            "src": "v10",
+                            "tgt": "v12"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v12": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -2.0,
+                                    2.0
+                                ]
+                            }
+                        },
+                        "v10": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -2.0,
+                                    5.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v3": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    3.0
+                                ]
+                            }
+                        },
+                        "v2": {
+                            "data": {
+                                "type": "hadamard",
+                                "value": ""
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    4.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e0": {
+                            "src": "v10",
+                            "tgt": "v2"
+                        },
+                        "e1": {
+                            "src": "v2",
+                            "tgt": "v3"
+                        },
+                        "e2": {
+                            "src": "v3",
+                            "tgt": "v12"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v7": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.0,
+                                -2.0
+                            ]
+                        }
+                    },
+                    "v2": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.75,
+                                0.75
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v5": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.5,
+                                -0.25
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.0,
+                                1.25
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -4.0,
+                                2.0
+                            ]
+                        }
+                    },
+                    "v3": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                0.5,
+                                0.25
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e23": {
+                        "src": "v5",
+                        "tgt": "v7"
+                    },
+                    "e17": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    },
+                    "e0": {
+                        "src": "v1",
+                        "tgt": "v2"
+                    },
+                    "e25": {
+                        "src": "v2",
+                        "tgt": "v3"
+                    },
+                    "e2": {
+                        "src": "v3",
+                        "tgt": "v5"
+                    },
+                    "e19": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    }
+                }
+            },
+            "rule_name": "theorems/HadamardAnn",
+            "rule_variant": "inverse"
+        },
+        "S1-0": {
+            "parent": "H-1",
+            "name": "S1-0",
+            "rule": {
+                "lhs": {
+                    "wire_vertices": {
+                        "v10": {},
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    -1.0,
+                                    -3.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v5": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\beta"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    -1.0
+                                ]
+                            }
+                        },
+                        "v1": {
+                            "data": {
+                                "type": "Z",
+                                "value": "\\alpha"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    -2.0,
+                                    3.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e51": {
+                            "src": "v10",
+                            "tgt": "v5"
+                        },
+                        "e50": {
+                            "src": "v1",
+                            "tgt": "v10"
+                        },
+                        "e48": {
+                            "src": "v5",
+                            "tgt": "v9"
+                        }
+                    }
+                },
+                "rhs": {
+                    "wire_vertices": {
+                        "v9": {
+                            "annotation": {
+                                "boundary": true,
+                                "coord": [
+                                    1.0,
+                                    -3.0
+                                ]
+                            }
+                        }
+                    },
+                    "node_vertices": {
+                        "v1": {
+                            "data": {
+                                "type": "Z",
+                                "value": "-\\pi/4"
+                            },
+                            "annotation": {
+                                "coord": [
+                                    0.0,
+                                    0.0
+                                ]
+                            }
+                        }
+                    },
+                    "undir_edges": {
+                        "e2": {
+                            "src": "v1",
+                            "tgt": "v9"
+                        }
+                    }
+                }
+            },
+            "graph": {
+                "node_vertices": {
+                    "v7": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.25,
+                                -3.0
+                            ]
+                        }
+                    },
+                    "v6": {
+                        "data": {
+                            "type": "Z",
+                            "value": "\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.75,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v1": {
+                        "data": {
+                            "type": "Z",
+                            "value": "-\\pi/4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.5,
+                                -1.5
+                            ]
+                        }
+                    },
+                    "v4": {
+                        "data": {
+                            "type": "X",
+                            "value": "-\\pi / 4"
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.5,
+                                0.25
+                            ]
+                        }
+                    },
+                    "v0": {
+                        "data": {
+                            "type": "X",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                -3.0,
+                                2.0
+                            ]
+                        }
+                    },
+                    "v3": {
+                        "data": {
+                            "type": "hadamard",
+                            "value": ""
+                        },
+                        "annotation": {
+                            "coord": [
+                                1.25,
+                                -1.0
+                            ]
+                        }
+                    }
+                },
+                "undir_edges": {
+                    "e52": {
+                        "src": "v4",
+                        "tgt": "v6"
+                    },
+                    "e46": {
+                        "src": "v0",
+                        "tgt": "v4"
+                    },
+                    "e54": {
+                        "src": "v3",
+                        "tgt": "v7"
+                    },
+                    "e2": {
+                        "src": "v1",
+                        "tgt": "v3"
+                    }
+                }
+            },
+            "rule_name": "axioms/S1"
+        }
+    },
+    "heads": [
+        "E-1"
+    ]
+}
